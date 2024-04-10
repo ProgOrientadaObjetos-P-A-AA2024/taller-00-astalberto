@@ -10,14 +10,15 @@ package paquete2;
  *
  * @author reroes
  */
+import paquete1.Mensaje;
 public class Demo {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        // usar printf;
+        String msg = Mensaje.obtenerMensaje();
+        System.out.printf("%s\n",msg);
     }
     
 }

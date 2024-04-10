@@ -9,6 +9,7 @@ package paquete3;
  *
  * @author reroes
  */
+import paquete5.Dato;
 public class Informacion {
     
     public static int obtenerHabitantes(){
