@@ -23,8 +23,9 @@ public class Demo002 {
         Scanner entrada = new Scanner(System.in);
         int check;
         String msg = Mensaje.obtenerMensaje();
-        System.out.println("Ingrese 1/2/3/4/5");
+        System.out.println("Ingrese 1/2/3/4/5 si desea imprimir el mensaje original");
         check = entrada.nextInt();
+        // 12345 original // otro Mayus
         if (check >= 1 && check <= 5) {
             System.out.printf("%s\n", msg);
         } else {
@@ -33,4 +34,3 @@ public class Demo002 {
     }
 
 }
-// 12345 original // otro Mayus
